@@ -1,0 +1,48 @@
+body {
+   margin: 0;
+   padding: 0;  
+   font-family: 'Forum', serif;  
+}
+.hero {
+    height: 90vh;
+    background-color: rgb(255, 149, 191) ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:  24px 32px ;
+}
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+.navbar p{
+ font-size: 2rem;
+ font-weight: bold;
+ margin: 0;
+
+}
+.navbar .contact {
+     background-color: white;
+     color:rgb(255, 149, 191) ;
+     padding: 16px 24px;
+     text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+.hero-content {
+    padding:  0 15%;
+}
+.tagline {
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;
+    padding: 32px 0;
+     
+}
